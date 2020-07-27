@@ -17,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://maryhalv.github.io/client-one/",
   "eslintConfig": {
     "extends": "react-app"
   },
