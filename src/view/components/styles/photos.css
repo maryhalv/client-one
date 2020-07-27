@@ -1,0 +1,18 @@
+#photos-div {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ width: 50rem;
+ margin-top: 2.5rem;
+ text-align: center;
+}
+
+.photo-div {
+ text-align: center;
+ margin: 1rem;
+
+}
+
+.photo-div:hover {
+  cursor: pointer;
+}

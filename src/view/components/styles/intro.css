@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Permanent+Marker&family=Rajdhani:wght@500&family=Staatliches&display=swap');
+
+#main-intro {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#d-headshot-1 {
+ margin-top: 15rem;
+ margin-bottom: 0.5rem;
+}
+
+#d-headshot-2, #d-headshot-3, #d-headshot-4 {
+ margin-bottom: 0.5rem;
+}

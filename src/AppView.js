@@ -4,8 +4,8 @@ import { Viewer } from './view/Viewer';
 
 export function AppView(props) {
 
-    const[view, setView] = useState('admin');
-    const[viewDisplay, setDisplay] = useState(<EditView/>);
+    const[view, setView] = useState('viewer');
+    const[viewDisplay, setDisplay] = useState(<Viewer/>);
 
     const handleViewChange = (view) => {
             setView(view);};

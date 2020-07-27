@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Permanent+Marker&family=Rajdhani:wght@500&family=Staatliches&display=swap');
+
+#media-main {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#media-top-menu{
+ display: flex;
+ flex-direction: row;
+ height: 2rem;
+}
+
+#media-menu-item {
+   margin-top: 12rem;
+   width: 50%;
+   text-align: center;
+   font-family: 'Permanent Marker', sans-serif;
+   font-size: 1.5rem;
+   cursor: pointer;
+   height: 2rem;
+}
+#media-menu-item:hover{
+   font-size: 2rem;
+}
+
+#media-viewer{
+
+margin-top:12rem;
+padding-left: 25%;
+padding-top: 0;
+
+}

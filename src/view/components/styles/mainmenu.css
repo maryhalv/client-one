@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Permanent+Marker&family=Staatliches&display=swap');
+#header-container{
+   position: fixed;
+   z-index: 100;
+   width: 100%;
+}
+#main-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+#mm-item {
+    background-color: black;
+    height: 2rem;
+    color: white;
+    width: 20%;
+    margin-top: 2rem;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#mm-item:hover{
+   color:yellow;
+   cursor: pointer;
+}
+
+#main-header{
+    background: black;
+    color: white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+#main-header:hover{
+    color: yellow;
+}
