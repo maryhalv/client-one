@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+html, body {
+height: 100%;
+}
+
+
+#side-menu {
+     margin: 0;
+     height: 100vh;
+     float: left;
+     width: 10rem;
+     background-color: black;
+}
+
+#menu-item {
+    font-family: 'Noto Serif', serif;
+    background-color: black;
+    color: white;
+    margin: 0 0 0 0 ;
+    height: 10rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
