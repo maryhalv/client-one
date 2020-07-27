@@ -1,5 +1,4 @@
 import React, { useState, useLayoutEffect } from 'react';
-import Gallery from 'react-photo-gallery';
 import aless from './media_images/alessandra.jpg';
 import clown_bar_1 from './media_images/clown_bar_1.jpeg';
 import clown_bar_2 from './media_images/clown_bar_2.JPG';
