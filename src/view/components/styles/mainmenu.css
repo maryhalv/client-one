@@ -4,6 +4,7 @@
    z-index: 100;
    width: 100%;
 }
+
 #main-menu {
     width: 100%;
     display: flex;
@@ -18,10 +19,10 @@
     height: 2rem;
     color: white;
     width: 20%;
-    margin-top: 2rem;
+    margin-top: 1vw;
     font-family: 'Permanent Marker', sans-serif;
     font-size: 2vw;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.5vw;
     text-align: center;
 }
 
@@ -33,8 +34,8 @@
 #main-header{
     background: black;
     color: white;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    padding-top: 1vw;
+    padding-left: 2vw;
     font-family: 'Permanent Marker', sans-serif;
     font-size: 3vw;
     width: 100%;
