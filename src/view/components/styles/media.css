@@ -18,12 +18,12 @@
    width: 50%;
    text-align: center;
    font-family: 'Permanent Marker', sans-serif;
-   font-size: 1.5vw;
+   font-size: 2vw;
    cursor: pointer;
    height: 2rem;
 }
 #media-menu-item:hover{
-   font-size: 2rem;
+   font-size: 2.5vw;
 }
 
 #media-viewer{
