@@ -11,20 +11,20 @@ return (
 <React.Fragment>
     <div id="main-intro">
     <div id="d-headshot-1">
-        <img src={headshot_1}/>
-        <figcaption>Photo by Patricia Roseman</figcaption>
+        <img id="img-headshot" src={headshot_1}/>
+        <figcaption id="headshot-cap">Photo by Patricia Roseman</figcaption>
     </div>
     <div id="d-headshot-2">
-        <img src={headshot_2}/>
-        <figcaption>Photo by Patricia Roseman</figcaption>
+        <img id="img-headshot" src={headshot_2}/>
+        <figcaption id="headshot-cap">Photo by Patricia Roseman</figcaption>
     </div>
     <div id="d-headshot-3">
-        <img src={headshot_3}/>
-        <figcaption>Photo by Patricia Roseman</figcaption>
+        <img id="img-headshot" src={headshot_3}/>
+        <figcaption id="headshot-cap">Photo by Patricia Roseman</figcaption>
     </div>
     <div id="d-headshot-4">
-        <img src={headshot_4}/>
-        <figcaption>Photo by Wayne Reich</figcaption>
+        <img id="img-headshot" src={headshot_4}/>
+        <figcaption id="headshot-cap">Photo by Wayne Reich</figcaption>
     </div>
     </div>
 </React.Fragment>

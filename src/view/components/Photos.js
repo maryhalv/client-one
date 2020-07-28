@@ -89,14 +89,20 @@ return(
     <button id="b-previous" onClick={handlePreviousClick}>
      <img src={left_arrow}/>
     </button>
-    <img id="side-pic" width="150" height= "150" src={photos[prevIndex].src}/>
-    <img src={photos[index].src}/>
-      <img  id="side-pic" width="150" height= "150"src={photos[nextIndex].src}/>
+    <div id="side-pic-container">
+     <img id="side-pic" src={photos[prevIndex].src}/>
+    </div>
+    <div id="main-pic-container">
+     <img id="main-pic" src={photos[index].src}/>
+    </div>
+    <div id="side-pic-container">
+    <img  id="side-pic" src={photos[nextIndex].src}/>
+    </div>
     <button id="b-next" onClick={handleNextClick}>
         <img src={right_arrow}/>
     </button>
     </div>
-     <figcaption>{photos[index].cap}</figcaption>
+    <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
    <div id="photos-div">
    </div>
    </React.Fragment>

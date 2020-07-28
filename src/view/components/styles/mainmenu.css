@@ -9,15 +9,15 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: white;
     margin-bottom: 2rem;
     padding-left: 1rem;
 }
 
 #mm-item {
-    background-color: black;
+    background-color: white;
     height: 2rem;
-    color: white;
+    color: black;
     width: 20%;
     margin-top: 1vw;
     font-family: 'Permanent Marker', sans-serif;
@@ -32,8 +32,8 @@
 }
 
 #main-header{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     padding-top: 1vw;
     padding-left: 2vw;
     font-family: 'Permanent Marker', sans-serif;

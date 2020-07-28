@@ -17,14 +17,16 @@
 }
 
 #media-menu-item {
-   margin-top: 12vw;
+   margin-top: 10vw;
    width: 50%;
    text-align: center;
    font-family: 'Permanent Marker', sans-serif;
    font-size: 2vw;
    cursor: pointer;
-   height: 2rem;
-    z-index: 100;
+   height: 3vw;
+   z-index: 100;
+   background-color: white;
+   padding-top: 1vw;
 }
 #media-menu-item:hover{
    font-size: 2.5vw;
@@ -33,8 +35,4 @@
 #media-viewer{
 margin-top:12rem;
 padding-top: 0;
-}
-
-#side-pic {
-margin: 5vw 1vw 0vw 1vw;
 }
