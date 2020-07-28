@@ -31,7 +31,7 @@ function PhotoGrid(props) {
 export function Photos(props) {
 
 const photos = [
-{src:aless, cap: "Hannah and some colleagues at ENTITY Mag in Los Angeles get one-on-one time with professional matchmaker Alessandra Conti."},
+{src: aless, cap: "Hannah and some colleagues at ENTITY Mag in Los Angeles get one-on-one time with professional matchmaker Alessandra Conti."},
 {src: clown_bar_1, cap: "Photo by Scott Muthersbaugh, Hannah as Petunia in Elon University’s production of Clown Bar by Adam Szymkowicz."},
 {src: clown_bar_2, cap: "Photo by Scott Muthersbaugh"},
 {src: clown_bar_3, cap: "Photo by Scott Muthersbaugh"},
@@ -46,29 +46,52 @@ const photos = [
 ];
 
 const[index, setIndex] = useState(0);
+const[prevIndex, setPrev] = useState(11);
+const[nextIndex, setNext] = useState(1);
 
 const handleNextClick = () => {
     if((index + 1) > (photos.length -1)) {
         setIndex(0);
+        setNext(1);
+        setPrev(photos.length -1);
     } else {
         setIndex(index + 1);
+        if((index + 2) > (photos.length -1)) {
+            setNext(0);
+            setPrev(photos.length -2);
+        } else {
+        setNext(index + 2);
+        setPrev(index);
+        }
     }
 }
 
 const handlePreviousClick = () => {
    if((index - 1) < 0) {
      setIndex(photos.length - 1);
+     setPrev(photos.length - 2);
+     setNext(0);
    } else {
     setIndex(index - 1);
+    if((index - 2) < 0) {
+    setPrev(photos.length - 1);
+    setNext(0);
+    } else {
+    setPrev(index - 2);
+    setNext(index);
+    }
    }
 }
 
-return( <React.Fragment>
+return(
+    <React.Fragment>
     <div id="display-photo">
     <button id="b-previous" onClick={handlePreviousClick}>
-   <img src={left_arrow}/>
+     <img src={left_arrow}/>
     </button>
+    <img id="side-pic" width="150" height= "150" src={photos[prevIndex].src}/>
     <img src={photos[index].src}/>
+      <img  id="side-pic" width="150" height= "150"src={photos[nextIndex].src}/>
     <button id="b-next" onClick={handleNextClick}>
         <img src={right_arrow}/>
     </button>

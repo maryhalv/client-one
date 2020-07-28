@@ -31,9 +31,10 @@
 }
 
 #media-viewer{
-
 margin-top:12rem;
-padding-left: 25%;
 padding-top: 0;
+}
 
+#side-pic {
+margin: 5vw 1vw 0vw 1vw;
 }
