@@ -32,10 +32,11 @@
 #headshot-cap {
   width: 100%;
   text-align: center;
-  margin: 1vw 0vw 1vw 0vw;
-  background-color: gray;
+  margin: 0vw 0vw 1vw 0vw;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
   font-size: 1.5vw;
-  border-radius: 0.5vw;
+  border-bottom: 0.2vw solid black;
+  border-left: 0.2vw solid black;
+  border-right: 0.2vw solid black;
 }

@@ -12,8 +12,8 @@ import nyc from './media_images/nyc.jpeg';
 import radio from './media_images/radio.jpeg';
 import rocky_horror from './media_images/rocky_horror.jpg';
 import './styles/photos.css';
-import left_arrow from '../images/icons8-double-left-50.png';
-import right_arrow from '../images/icons8-double-right-50.png'
+import left_arrow from '../images/icons8-arrow-pointing-left-96.png';
+import right_arrow from '../images/icons8-arrow-96.png'
 
 function PhotoGrid(props) {
 
@@ -82,24 +82,31 @@ const handlePreviousClick = () => {
     }
    }
 }
+// <div id="side-pic-container">
+//     <img id="side-pic" src={photos[prevIndex].src}/>
+//    </div>
+//
+//
+// <div id="side-pic-container">
+//    <img  id="side-pic" src={photos[nextIndex].src}/>
+//    </div>
+
+// <img src={left_arrow}/>
+//<img src={right_arrow}/>
+
 
 return(
     <React.Fragment>
     <div id="display-photo">
     <button id="b-previous" onClick={handlePreviousClick}>
-     <img src={left_arrow}/>
+        <img id="left-arrow" src={left_arrow}/>
     </button>
-    <div id="side-pic-container">
-     <img id="side-pic" src={photos[prevIndex].src}/>
-    </div>
+
     <div id="main-pic-container">
      <img id="main-pic" src={photos[index].src}/>
     </div>
-    <div id="side-pic-container">
-    <img  id="side-pic" src={photos[nextIndex].src}/>
-    </div>
     <button id="b-next" onClick={handleNextClick}>
-        <img src={right_arrow}/>
+        <img id="right-arrow" src={right_arrow}/>
     </button>
     </div>
     <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
