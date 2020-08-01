@@ -6,8 +6,11 @@ import {Resume} from './components/Resume';
 import {Contact} from './components/Contact';
 import {Writing} from './components/Writing';
 import {Media} from './components/Media';
+import {SideMenu} from './components/SideMenu';
+import {Header} from './components/Header';
 
 import './components/styles/main.css';
+import './components/styles/fullheader.css';
 
 export function Viewer(props){
 
@@ -45,9 +48,9 @@ export function Viewer(props){
 
     return(
     <div id="main-div">
-        <div id="main-div-child-1">
-        <TopMenu handleViewChange={handleViewChange}/>
-        </div>
+        <Header handleViewChange={handleViewChange}/>
+        <SideMenu handleViewChange={handleViewChange}/>
+
         <div id="main-div-child-2">
         {viewDisplay}
         </div>

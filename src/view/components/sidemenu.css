@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Permanent+Marker&family=Rajdhani:wght@500&family=Staatliches&display=swap');
+
+#side-menu-container {
+ position: fixed;
+ z-index: 100;
+}
+
+#items{
+ display: flex;
+ flex-direction: column;
+ background-color: black;
+ color: white;
+ width: 50vw;
+ height: 30vw;
+ font-family: 'Rajdhani', sans-serif;
+ font-size: 1rem;
+ z-index: 100;
+}
+
+#smenu-item {
+ width: 100vw;
+ height: 20%;
+ background-color: #9042f5;
+ color: white;
+ border-left: none;
+ padding-top: 1vw;
+ cursor: pointer;
+ z-index: 100;
+ text-align: center;
+}
+
+#menu-control {
+    cursor: pointer;
+    margin-top: 0vw;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2vw;
+    height: 2vw;
+    background-color: #9042f5;
+    color: #343438;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    z-index: 100;
+}
+
+#b-header {
+
+}

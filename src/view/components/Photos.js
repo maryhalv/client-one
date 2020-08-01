@@ -101,14 +101,8 @@ return(
     <button id="b-previous" onClick={handlePreviousClick}>
         <img id="left-arrow" src={left_arrow}/>
     </button>
-     <div id="side-pic-container">
-     <img id="side-pic" src={photos[prevIndex].src}/>
-    </div>
     <div id="main-pic-container">
      <img id="main-pic" src={photos[index].src}/>
-    </div>
-    <div id="side-pic-container">
-    <img  id="side-pic" src={photos[nextIndex].src}/>
     </div>
     <button id="b-next" onClick={handleNextClick}>
         <img id="right-arrow" src={right_arrow}/>

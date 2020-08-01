@@ -21,32 +21,32 @@
 #display-photo {
     display: flex;
     flex-direction: row;
-    margin-top: 1vw;
+    margin-top: 5vw;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    z-index:90;
-
+    margin-left: 21%;
+    margin-right: 19%;
 }
 
 #b-previous {
-    /*margin-right: 3vw; */
       margin-right: 3vw;
-       margin-top: 15%;
+       margin-top: 27%;
        border:none;
-       background-color: white;;
        cursor: pointer;
-       width: 4vw;
+       width: 2.5rem;
+       height: 2vw;
+       background: none;
 }
 
 #b-next{
-         margin-left: 3vw;
-       margin-top: 15%;
+       margin-left: 3vw;
+       margin-right: none;
+       margin-top: 27%;
        border:none;
-       background-color: white;
        cursor: pointer;
        border: none;
-       width: 4vw;
+       width: 2.5rem;
+       height: 2vw;
+       background: none;
 }
 
 #left-arrow {
@@ -67,12 +67,11 @@
     margin-top: 0vw;
     width: 33.7vw;
     text-align: center;
-    background-color: white;
     color: black;
     padding: 1vw;
     margin-left: 32%;
     margin-right: 32%;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 #main-pic {

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Permanent+Marker&family=Rajdhani:wght@500&family=Staatliches&display=swap');
+
+
+#full-header{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    position: fixed;
+    font-size: 2vw;
+    text-align: right;
+    padding-left: 80%;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #9042f5;
+    color: #343438;
+    height: 5vw;
+}
+
+#p-header {
+    cursor: pointer;
+}

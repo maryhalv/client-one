@@ -9,7 +9,7 @@
 
 #d-headshot-1 {
   width: 40vw;
-  margin: 15vw 30vw 0vw 30vw;
+  margin: 8vw 30vw 0vw 30vw;
 }
 
 #d-headshot-2, #d-headshot-3 {
@@ -26,7 +26,6 @@
   display: block;
   width: 100%;
   height: auto;
-  border: 0.2vw solid black;
 }
 
 #headshot-cap {
@@ -35,8 +34,5 @@
   margin: 0vw 0vw 1vw 0vw;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
-  font-size: 1.5vw;
-  border-bottom: 0.2vw solid black;
-  border-left: 0.2vw solid black;
-  border-right: 0.2vw solid black;
+  font-size: 1rem;
 }
