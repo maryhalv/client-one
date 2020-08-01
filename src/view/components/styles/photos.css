@@ -69,9 +69,14 @@
     text-align: center;
     color: black;
     padding: 1vw;
+    margin-top: 1rem;
     margin-left: 32%;
     margin-right: 32%;
     font-size: 1rem;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 2vw;
+
 }
 
 #main-pic {
