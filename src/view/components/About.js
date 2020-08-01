@@ -11,10 +11,10 @@ return(
         <div id="about-headshot">
            <img id="img-headshot-about"src={headshot_1} />
         </div>
-        <div id="about-text">
-        <div id="about-section">
-            Welcome to my website!
+        <div id="welcome-header">
+            Welcome!
         </div>
+        <div id="about-text">
         <div id="about-section">
             My name is Hannah Dobrogosz and I am an actor, singer, and writer.
             I am a proud graduate of Elon University with a Bachelor of Fine Arts

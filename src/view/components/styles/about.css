@@ -10,6 +10,15 @@
  margin-right: 20vw;
 }
 
+#welcome-header{
+ font-size: 4rem;
+ color: white;
+ font-family: 'Rajdhani', sans-serif;
+ text-align: center;
+ margin-top: 0.75rem;
+
+}
+
 #about-container{
     padding-top: 10vw;
     width: 90vw;
@@ -25,10 +34,11 @@
     padding-top: 3vw;
     padding-bottom: 2vw;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.75;
     border-radius: 10vw;
     width: 48vw;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #about-section {
