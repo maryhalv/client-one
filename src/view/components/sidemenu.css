@@ -34,11 +34,11 @@
     cursor: pointer;
     margin-top: 0vw;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 2vw;
-    height: 2vw;
+    font-size: 1.5rem;
+    height: 0.7rem;
     background-color: #9042f5;
     color: white;
-    padding-top: 2vw;
+    padding-top: 1vw;
     padding-bottom: 1vw;
     padding-left: 1vw;
     z-index: 100;
