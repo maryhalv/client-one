@@ -1,8 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Permanent+Marker&family=Rajdhani:wght@500&family=Staatliches&display=swap');
 
-
 #main-resume {
-    text-align: center;
-    font-family: 'Rajdhani', sans-serif;
+padding-top: 5rem;
+}
+
+#resume-view {
+ width: 100vw;
+ height: 100vh;
 }
