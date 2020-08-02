@@ -48,7 +48,6 @@ export function Viewer(props){
 
     return(
     <div id="main-div">
-        <Header handleViewChange={handleViewChange}/>
         <SideMenu handleViewChange={handleViewChange}/>
 
         <div id="main-div-child-2">

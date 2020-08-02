@@ -8,10 +8,11 @@
     font-size: 1rem;
     padding-top: 2vw;
     color: #343438;
+    padding-bottom: 1rem;
 }
 
 #writing-sample-top {
- margin: 9vw 10vw 0 10vw;
+ margin: 3rem 10vw 0 10vw;
  width: 80vw;
  display: flex;
  flex-direction: row;

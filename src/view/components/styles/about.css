@@ -5,9 +5,7 @@
 #main-about {
  display: flex;
  flex-direction: column;
- width: 60w;
- margin-left: 20vw;
- margin-right: 20vw;
+ width: 100%;
 }
 
 #welcome-header{
@@ -20,10 +18,7 @@
 }
 
 #about-container{
-    padding-top: 10vw;
-    width: 90vw;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-top: 6rem;
     /*background-image: url('../../images/headshot_1.jpeg');
     background-repeat: no-repeat; */
 }
@@ -36,31 +31,34 @@
     background-color: white;
     opacity: 0.75;
     border-radius: 10vw;
-    width: 48vw;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 #about-section {
-   width: 40vw;
+   width: 70vw;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    font-size: 1.5rem;
    margin-bottom: 1vw;
-   margin-left: 5vw;
-   margin-right: 3vw;
+   margin-left: 5.5vw;
    /*color: #343438; */
    color: black;
     font-family: 'Rajdhani', sans-serif;
 }
 
-#aboout-headshot {
+#about-headshot {
     width: 50vw;
-    height: auto;
-    margin-top: 5vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
 
-#image-headshot-about {
-    width: 100%;
+#img-headshot-about {
+    display: block;
+   width: 100%;
+     height: auto;
 }

@@ -21,7 +21,7 @@
 #display-photo {
     display: flex;
     flex-direction: row;
-    margin-top: 5vw;
+    margin-top: 5rem;
     text-align: center;
     margin-left: 21%;
     margin-right: 19%;

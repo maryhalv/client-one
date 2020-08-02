@@ -1,6 +1,7 @@
 import React, {useState, useLayoutEffect} from 'react';
 import ReactDOM from 'react-dom';
 import './sidemenu.css';
+import menu from '../images/icons8-menu-100.png';
 
 export function SideMenu(props) {
 
@@ -39,6 +40,10 @@ export function SideMenu(props) {
         props.handleViewChange('contact');
     }
 
+    const handleAboutClick=() => {
+        props.handleViewChange('intro');
+    }
+
     useLayoutEffect(() => {
         switch(viewMenu){
         case "visible":
@@ -57,8 +62,12 @@ export function SideMenu(props) {
 
     <React.Fragment>
     <div id="side-menu-container">
-    <div id="menu-control" onClick={animateMenu}>
-                Menu
+    <div id="menu-control">
+    <div id="d-menu-icon">
+    <img id="menu-icon" src={menu} onClick={animateMenu}/>
+    </div>
+                <p id="p-name" onClick={handleAboutClick}>Hannah Dobrogosz</p>
+
           </div>
             <div id="items">
                 <div id="smenu-item" onClick={handleHeadshotsClick}>
