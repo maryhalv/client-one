@@ -21,26 +21,32 @@ export function SideMenu(props) {
     }
 
     const handleHeadshotsClick = () => {
+        animateMenu();
         props.handleViewChange('headshots');
     }
 
     const handleResumeClick = () => {
+        animateMenu();
         props.handleViewChange('resume');
     }
 
     const handleMediaClick = () => {
+         animateMenu();
          props.handleViewChange('media');
     }
 
     const handleWritingClick = () => {
+        animateMenu();
         props.handleViewChange('writing');
     }
 
     const handleContactClick = () => {
+        animateMenu();
         props.handleViewChange('contact');
     }
 
     const handleAboutClick=() => {
+        animateMenu();
         props.handleViewChange('intro');
     }
 
