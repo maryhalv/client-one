@@ -8,6 +8,8 @@ import {Writing} from './components/Writing';
 import {Media} from './components/Media';
 import {SideMenu} from './components/SideMenu';
 import {Header} from './components/Header';
+import {Photos} from './components/Photos';
+import {Videos} from './components/Videos';
 
 import './components/styles/main.css';
 import './components/styles/fullheader.css';
@@ -33,8 +35,11 @@ export function Viewer(props){
              case 'resume':
              setViewDisplay(<Resume handleViewChange={handleViewChange} />);
              break;
-             case 'media':
-             setViewDisplay(<Media handleViewChange={handleViewChange} />);
+             case 'photos':
+             setViewDisplay(<Photos handleViewChange={handleViewChange} />);
+             break;
+             case 'videos':
+             setViewDisplay(<Videos handleViewChange={handleViewChange} />);
              break;
              case 'writing':
              setViewDisplay(<Writing handleViewChange={handleViewChange} />);
@@ -49,7 +54,6 @@ export function Viewer(props){
     return(
     <div id="main-div">
         <SideMenu handleViewChange={handleViewChange}/>
-
         <div id="main-div-child-2">
         {viewDisplay}
         </div>

@@ -6,6 +6,20 @@ import menu from '../images/icons8-menu-100.png';
 export function SideMenu(props) {
 
     const[viewMenu, setMenu] = useState("hidden");
+    const[viewMediaMenu, setMedia] = useState("hidden");
+
+    const animateMediaMenu = () => {
+    switch(viewMediaMenu) {
+    case "visible":
+    setMedia("hidden");
+    break;
+    case "hidden":
+    setMedia("visible");
+    break;
+    default:
+    setMedia("visible");
+    }
+    }
 
     const animateMenu = () => {
        switch(viewMenu) {
@@ -22,32 +36,50 @@ export function SideMenu(props) {
 
     const handleHeadshotsClick = () => {
         animateMenu();
+        setMedia("hidden");
         props.handleViewChange('headshots');
     }
 
     const handleResumeClick = () => {
         animateMenu();
+         setMedia("hidden");
         props.handleViewChange('resume');
     }
 
     const handleMediaClick = () => {
          animateMenu();
-         props.handleViewChange('media');
+         animateMediaMenu();
+         props.handleViewChange('photos');
     }
 
     const handleWritingClick = () => {
         animateMenu();
+         setMedia("hidden");
         props.handleViewChange('writing');
     }
 
     const handleContactClick = () => {
         animateMenu();
+         setMedia("hidden");
         props.handleViewChange('contact');
     }
 
     const handleAboutClick=() => {
-        animateMenu();
+        /*animateMenu();*/
+        setMedia("hidden");
         props.handleViewChange('intro');
+    }
+
+    const handlePhotosClick=() => {
+         props.handleViewChange('photos');
+    }
+
+    const handleVideosClick=() => {
+        props.handleViewChange('videos');
+    }
+
+    const handleSoundClick=() => {
+
     }
 
     useLayoutEffect(() => {
@@ -64,6 +96,20 @@ export function SideMenu(props) {
         }
     }, [viewMenu]);
 
+    useLayoutEffect(() => {
+            switch(viewMediaMenu){
+            case "visible":
+            document.getElementById("d-media-menu").style.visibility = "visible";
+            break;
+            case "hidden":
+            document.getElementById("d-media-menu").style.visibility = "hidden";
+            break;
+            default:
+            document.getElementById("d-media-menu").style.visibility = "visible";
+            break;
+            }
+        }, [viewMediaMenu]);
+
     return(
 
     <React.Fragment>
@@ -72,7 +118,7 @@ export function SideMenu(props) {
     <div id="d-menu-icon">
     <img id="menu-icon" src={menu} onClick={animateMenu}/>
     </div>
-                <p id="p-name" onClick={handleAboutClick}>Hannah Dobrogosz</p>
+                <p id="p-name" onClick={handleAboutClick}>HANNAH DOBROGOSZ</p>
 
           </div>
             <div id="items">
@@ -92,6 +138,17 @@ export function SideMenu(props) {
                 Contact
                 </div>
             </div>
+    <div id="d-media-menu">
+     <div id="photo-menu-item" onClick={handlePhotosClick}>
+    Photos
+    </div>
+    <div id="photo-menu-item" onClick={handleVideosClick}>
+     Videos
+    </div>
+    <div id="photo-menu-item" onClick={handleSoundClick}>
+    Sound
+    </div>
+    </div>
     </div>
 
 

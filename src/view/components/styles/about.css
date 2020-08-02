@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Permanent+Marker&family=Rajdhani:wght@500&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&display=swap');
 
 
 #main-about {
@@ -10,11 +11,10 @@
 
 #welcome-header{
  font-size: 4rem;
- color: white;
- font-family: 'Rajdhani', sans-serif;
- text-align: center;
+ color: black;
+ font-family: 'Libre Baskerville', serif;
  margin-top: 0.75rem;
-
+ margin-left: 5%;
 }
 
 #about-container{
@@ -26,35 +26,32 @@
 #about-text{
     display: flex;
     flex-direction: column;
-    padding-top: 3vw;
+    padding-top: 1vw;
     padding-bottom: 2vw;
     background-color: white;
     opacity: 0.75;
     border-radius: 10vw;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 1rem;
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
 
 #about-section {
-   width: 70vw;
+   width: 90vw;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    font-size: 1.5rem;
    margin-bottom: 1vw;
-   margin-left: 5.5vw;
    /*color: #343438; */
    color: black;
-    font-family: 'Rajdhani', sans-serif;
+   font-family: 'Lato', sans-serif;
 }
 
 #about-headshot {
     width: 50vw;
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-left: 5%;
 }
 
 #img-headshot-about {
