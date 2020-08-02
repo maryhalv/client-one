@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/client-one/static/css/main.3784faaa.chunk.css",
-    "main.js": "/client-one/static/js/main.9e7a1564.chunk.js",
-    "main.js.map": "/client-one/static/js/main.9e7a1564.chunk.js.map",
+    "main.css": "/client-one/static/css/main.303a4976.chunk.css",
+    "main.js": "/client-one/static/js/main.b6dc5b46.chunk.js",
+    "main.js.map": "/client-one/static/js/main.b6dc5b46.chunk.js.map",
     "runtime-main.js": "/client-one/static/js/runtime-main.4f73fa4e.js",
     "runtime-main.js.map": "/client-one/static/js/runtime-main.4f73fa4e.js.map",
-    "static/js/2.1d78e7cd.chunk.js": "/client-one/static/js/2.1d78e7cd.chunk.js",
-    "static/js/2.1d78e7cd.chunk.js.map": "/client-one/static/js/2.1d78e7cd.chunk.js.map",
+    "static/js/2.1add295a.chunk.js": "/client-one/static/js/2.1add295a.chunk.js",
+    "static/js/2.1add295a.chunk.js.map": "/client-one/static/js/2.1add295a.chunk.js.map",
     "index.html": "/client-one/index.html",
-    "precache-manifest.473db6702198b3a392543ee7d2fd5841.js": "/client-one/precache-manifest.473db6702198b3a392543ee7d2fd5841.js",
+    "precache-manifest.be11e857c516ee0a9e1ab04a97efd25f.js": "/client-one/precache-manifest.be11e857c516ee0a9e1ab04a97efd25f.js",
     "service-worker.js": "/client-one/service-worker.js",
-    "static/css/main.3784faaa.chunk.css.map": "/client-one/static/css/main.3784faaa.chunk.css.map",
-    "static/js/2.1d78e7cd.chunk.js.LICENSE.txt": "/client-one/static/js/2.1d78e7cd.chunk.js.LICENSE.txt",
+    "static/css/main.303a4976.chunk.css.map": "/client-one/static/css/main.303a4976.chunk.css.map",
+    "static/js/2.1add295a.chunk.js.LICENSE.txt": "/client-one/static/js/2.1add295a.chunk.js.LICENSE.txt",
     "static/media/alessandra.jpg": "/client-one/static/media/alessandra.46e3ea59.jpg",
     "static/media/clown_bar_1.jpeg": "/client-one/static/media/clown_bar_1.90ef6643.jpeg",
     "static/media/clown_bar_2.JPG": "/client-one/static/media/clown_bar_2.490dedc0.JPG",
@@ -28,12 +28,13 @@
     "static/media/logo.svg": "/client-one/static/media/logo.5d5d9eef.svg",
     "static/media/nyc.jpeg": "/client-one/static/media/nyc.091c09ee.jpeg",
     "static/media/radio.jpeg": "/client-one/static/media/radio.4ebe1f01.jpeg",
+    "static/media/resume_prof.pdf": "/client-one/static/media/resume_prof.854f1696.pdf",
     "static/media/rocky_horror.jpg": "/client-one/static/media/rocky_horror.9f1b3e10.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4f73fa4e.js",
-    "static/js/2.1d78e7cd.chunk.js",
-    "static/css/main.3784faaa.chunk.css",
-    "static/js/main.9e7a1564.chunk.js"
+    "static/js/2.1add295a.chunk.js",
+    "static/css/main.303a4976.chunk.css",
+    "static/js/main.b6dc5b46.chunk.js"
   ]
 }
