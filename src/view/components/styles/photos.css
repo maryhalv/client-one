@@ -1,31 +1,41 @@
 #photos-div {
  display: flex;
- flex-direction: row;
- flex-wrap: wrap;
+ flex-direction: column;
  width: 50vw;
  margin-top: 2.5rem;
  text-align: center;
- margin-left: 8%;
+ margin-left: 25%;
+ margin-right: 25%;
 }
 
 .photo-div {
- text-align: center;
- margin: 1rem;
+width: 50vw;
+margin-bottom: 1rem;
+display: flex;
+flex-direction: column;
+margin-top: 1rem;
+}
 
+.img-photo {
+    display: block;
+   width: 100%;
+     height: auto;
 }
 
 .photo-div:hover {
   cursor: pointer;
 }
 
-#display-photo {
+
+
+/*#display-photo {
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
     text-align: center;
     margin-left: 21%;
     margin-right: 19%;
-}
+} */
 
 #b-previous {
       margin-right: 3vw;
@@ -65,13 +75,11 @@
 
 #gallery-cap {
     margin-top: 0vw;
-    width: 33.7vw;
+    width: 48vw;
     text-align: center;
     color: black;
     padding: 1vw;
     margin-top: 1rem;
-    margin-left: 32%;
-    margin-right: 32%;
     font-size: 1rem;
     background-color: white;
     opacity: 0.75;

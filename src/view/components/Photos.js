@@ -21,7 +21,8 @@ function PhotoGrid(props) {
 
     const photo_divs = photos.map(photo  => {
     return (<div class="photo-div" id={photo}>
-           <img src={photo} id={photo}/>
+           <img class="img-photo" src={photo.src} id={photo}/>
+           <figcaption id="gallery-cap">{photo.cap}</figcaption>
            </div>);
          });
 
@@ -95,21 +96,24 @@ const handlePreviousClick = () => {
 //<img src={right_arrow}/>
 
 
+//<button id="b-previous" onClick={handlePreviousClick}>
+//        <img id="left-arrow" src={left_arrow}/>
+//    </button>
+//    <div id="main-pic-container">
+//     <img id="main-pic" src={photos[index].src}/>
+//    </div>
+//    <button id="b-next" onClick={handleNextClick}>
+//        <img id="right-arrow" src={right_arrow}/>
+//    </button>
+//    </div>
+//    <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
+
 return(
     <React.Fragment>
     <div id="display-photo">
-    <button id="b-previous" onClick={handlePreviousClick}>
-        <img id="left-arrow" src={left_arrow}/>
-    </button>
-    <div id="main-pic-container">
-     <img id="main-pic" src={photos[index].src}/>
-    </div>
-    <button id="b-next" onClick={handleNextClick}>
-        <img id="right-arrow" src={right_arrow}/>
-    </button>
-    </div>
-    <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
    <div id="photos-div">
+   <PhotoGrid photos={photos}/>
+   </div>
    </div>
    </React.Fragment>
    );
