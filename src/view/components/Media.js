@@ -32,15 +32,6 @@ export function Media(props) {
                   setViewDisplay(<Photos handleViewChange={handleViewChange}/>);}
                   }, [view]);
 
-//
-//                   <div id="media-top-menu">
-//                               <div id="media-menu-item" onClick={handlePhotoClick}>
-//                               Photos
-//                               </div>
-//                               <div id="media-menu-item" onClick={handleVideoClick}>
-//                               Videos
-//                               </div>
-
     return(
         <React.Fragment>
             <div id="media-main">
