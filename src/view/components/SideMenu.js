@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom';
 import './sidemenu.css';
 import menu from '../images/icons8-menu-100.png';
 
+
+//  <div id="d-media-menu">
+//      <div id="photo-menu-item" onClick={handlePhotosClick}>
+//     Photos
+//     </div>
+//     <div id="photo-menu-item" onClick={handleVideosClick}>
+//      Videos
+//     </div>
+//     <div id="photo-menu-item" onClick={handleSoundClick}>
+//     Sound
+//     </div>
+//     </div>
+
 export function SideMenu(props) {
 
     const[viewMenu, setMenu] = useState("hidden");
@@ -65,7 +78,6 @@ export function SideMenu(props) {
     }
 
     const handleAboutClick=() => {
-        /*animateMenu();*/
         setMedia("hidden");
         props.handleViewChange('intro');
     }
@@ -96,7 +108,7 @@ export function SideMenu(props) {
         }
     }, [viewMenu]);
 
-    useLayoutEffect(() => {
+    /* useLayoutEffect(() => {
             switch(viewMediaMenu){
             case "visible":
             document.getElementById("d-media-menu").style.visibility = "visible";
@@ -108,7 +120,7 @@ export function SideMenu(props) {
             document.getElementById("d-media-menu").style.visibility = "visible";
             break;
             }
-        }, [viewMediaMenu]);
+        }, [viewMediaMenu]); */
 
     return(
 
@@ -138,17 +150,6 @@ export function SideMenu(props) {
                 Contact
                 </div>
             </div>
-    <div id="d-media-menu">
-     <div id="photo-menu-item" onClick={handlePhotosClick}>
-    Photos
-    </div>
-    <div id="photo-menu-item" onClick={handleVideosClick}>
-     Videos
-    </div>
-    <div id="photo-menu-item" onClick={handleSoundClick}>
-    Sound
-    </div>
-    </div>
     </div>
 
 
