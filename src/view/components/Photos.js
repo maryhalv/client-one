@@ -13,7 +13,9 @@ import radio from './media_images/radio.jpeg';
 import rocky_horror from './media_images/rocky_horror.jpg';
 import './styles/photos.css';
 import left_arrow from '../images/icons8-double-left-50.png';
-import right_arrow from '../images/icons8-double-right-50.png'
+import right_arrow from '../images/icons8-double-right-50.png';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 function PhotoGrid(props) {
 
@@ -26,7 +28,11 @@ function PhotoGrid(props) {
            </div>);
          });
 
-    return(photo_divs);
+     const photo_sliders = photos.map(photo => {
+     return(<div data-src={photo.src} />);
+     });
+
+    return(photo_sliders);
 }
 
 export function Photos(props) {
@@ -83,6 +89,14 @@ const handlePreviousClick = () => {
     }
    }
 }
+
+const slider = (
+    <AwesomeSlider>
+        <div data-src="/path/to/image-0.png" />
+        <div data-src="/path/to/image-1.png" />
+        <div data-src="/path/to/image-2.jpg" />
+      </AwesomeSlider>
+);
 // <div id="side-pic-container">
 //     <img id="side-pic" src={photos[prevIndex].src}/>
 //    </div>
@@ -108,13 +122,33 @@ const handlePreviousClick = () => {
 //    </div>
 //    <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
 
+//return(
+//    <React.Fragment>
+//    <div id="display-photo">
+//   <div id="photos-div">
+//   <PhotoGrid photos={photos}/>
+//   </div>
+//   </div>
+//   </React.Fragment>
+//   );
+
 return(
-    <React.Fragment>
-    <div id="display-photo">
-   <div id="photos-div">
-   <PhotoGrid photos={photos}/>
-   </div>
-   </div>
-   </React.Fragment>
-   );
+<div id="slider-container">
+  <AwesomeSlider id="slider">
+  <div data-src={clown_bar_1}/>
+  <div data-src={clown_bar_2}/>
+  <div data-src={clown_bar_3}/>
+  <div data-src={clown_bar_4}/>
+  <div data-src={aless}/>
+  <div data-src={collin}/>
+  <div data-src={entity_mag}/>
+  <div data-src={flying}/>
+  <div data-src={john_basil}/>
+  <div data-src={nyc}/>
+  <div data-src={radio}/>
+  <div data-src={rocky_horror}/>
+  </AwesomeSlider>
+</div>
+
+);
 }

@@ -107,3 +107,7 @@ flex-direction: column;
 #side-pic-container {
     width: 15vw;
 }
+
+#slider-container{
+  padding-top: 4rem;
+}
