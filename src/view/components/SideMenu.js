@@ -145,10 +145,7 @@ export function SideMenu(props) {
                 Photos
                 </div>
                 <div id="smenu-item" onClick={handleVideosClick}>
-                Videos
-                </div>
-                <div id="smenu-item" onClick={handleSoundClick}>
-                Sound
+                Videos and Sound
                 </div>
                 <div id="smenu-item" onClick={handleWritingClick}>
                 Writing
