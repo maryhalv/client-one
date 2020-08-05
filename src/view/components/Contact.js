@@ -7,7 +7,7 @@ export function Contact(props) {
             <div id="contact-main">
             <div id="d-contact">
             <p>
-            EMAIL
+            EMAIL:
             </p>
             <p id="p-info">
             hannah.dobrogosz@gmail.com
@@ -15,7 +15,7 @@ export function Contact(props) {
             </div>
             <div id="d-contact">
             <p>
-            INSTAGRAM
+            INSTAGRAM:
             </p>
             <p id="p-info">
             hannahdobrogosz
@@ -23,7 +23,7 @@ export function Contact(props) {
             </div>
             <div id="d-contact">
             <p>
-            LINKEDIN
+            LINKEDIN:
             </p>
             <p id="p-info">
             <a id="linkedin-link" href="https://www.linkedin.com/in/hannahdobrogosz/">hannahdobrogosz</a>

@@ -1,8 +1,12 @@
-import React, {useState, useLayoutEffect} from 'react';
+import React, {useState, useLayoutEffect, useEffect} from 'react';
 import './styles/about.css';
 import headshot_1 from '../images/headshot_1.jpeg';
 
 export function About(props) {
+
+useEffect(() => {
+    window.scrollTo(0,0);
+}, []);
 
 return(
     <React.Fragment>

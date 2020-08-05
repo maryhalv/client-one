@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState, useLayoutEffect, useEffect } from 'react';
 import aless from './media_images/alessandra.jpg';
 import clown_bar_1 from './media_images/clown_bar_1.jpeg';
 import clown_bar_2 from './media_images/clown_bar_2.JPG';
@@ -97,6 +97,10 @@ const slider = (
         <div data-src="/path/to/image-2.jpg" />
       </AwesomeSlider>
 );
+
+useEffect(() => {
+    window.scrollTo(0,0);
+}, []);
 // <div id="side-pic-container">
 //     <img id="side-pic" src={photos[prevIndex].src}/>
 //    </div>

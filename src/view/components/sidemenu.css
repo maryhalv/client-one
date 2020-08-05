@@ -37,8 +37,8 @@
 #menu-control {
     cursor: pointer;
     margin-top: 0vw;
-    font-size: 1.5rem;
-    height: 3.5rem;
+    font-size: 1.2rem;
+    height: 2.75rem;
     background-color: #9999C3;
     color: black;
     padding-left: 1vw;
@@ -55,11 +55,12 @@
 
 #p-name {
  padding-left: 1rem;
+ margin-top: 0.6rem;
 }
 
 #d-menu-icon {
-  width: 2.5rem;
-  margin-top: 1rem;
+  width: 2rem;
+  margin-top: 0.5rem;
 }
 
 #menu-icon{

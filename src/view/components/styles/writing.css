@@ -7,13 +7,12 @@
     display: flex;
     flex-direction: column;
     font-size: 1rem;
-    padding-top: 2vw;
     color: black;
     padding-bottom: 1rem;
 }
 
 #writing-category-top{
- margin-top: 5rem;
+ margin-top: 4rem;
  text-align: left;
  width: 90vw;
  margin-left: 5vw;
@@ -52,7 +51,7 @@
 }
 
 #top-collapsible{
-    margin-top: 10rem;
+    margin-top: 0rem;
     width: 100vw;
 }
 

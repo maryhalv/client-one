@@ -18,7 +18,7 @@
 }
 
 #about-container{
-    padding-top: 6rem;
+    padding-top: 4rem;
     /*background-image: url('../../images/headshot_1.jpeg');
     background-repeat: no-repeat; */
 }
@@ -26,14 +26,12 @@
 #about-text{
     display: flex;
     flex-direction: column;
-    padding-top: 1vw;
     padding-bottom: 2vw;
     background-color: white;
     opacity: 0.75;
     border-radius: 10vw;
     width: 90vw;
-    margin-left: 5%;
-    margin-top: 0.5rem;
+    margin-left: 5vw;
     margin-bottom: 1rem;
 }
 

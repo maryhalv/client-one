@@ -30,17 +30,17 @@ export function Videos(props) {
         </div>
          <div id="video-collapse">
          <Collapsible id="video-display" trigger="An Unexpected Match">
-            <iframe id="i-frame-video" src="https://drive.google.com/file/d/1eAMb2-wh1QT5TxsJXBCnhTbc256gQOGm/preview" ></iframe>
+            <iframe id="i-frame-video" src="https://drive.google.com/file/d/1eAMb2-wh1QT5TxsJXBCnhTbc256gQOGm/preview" allowfullscreen></iframe>
          </Collapsible>
          </div>
          <div id="video-collapse">
          <Collapsible  trigger="Singing Reel">
-           <iframe id="i-frame-video" src="https://drive.google.com/file/d/14vi9GZzc6h0Gy1wIRpoHieFIkLWGZt6O/preview" ></iframe>
+           <iframe id="i-frame-video" src="https://drive.google.com/file/d/14vi9GZzc6h0Gy1wIRpoHieFIkLWGZt6O/preview" allowfullscreen></iframe>
          </Collapsible>
          </div>
          <div id="video-collapse">
          <Collapsible  trigger="Acting Reel ">
-            <iframe id="i-frame-video" src="https://drive.google.com/file/d/1lVQ0JDfTHOeSXLzjg6_27IthP78rp1x4/preview" ></iframe>
+            <iframe id="i-frame-video" src="https://drive.google.com/file/d/1lVQ0JDfTHOeSXLzjg6_27IthP78rp1x4/preview" allowfullscreen></iframe>
          </Collapsible>
          </div>
          </div>

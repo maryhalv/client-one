@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&display=swap');
 
 #contact-main {
-   font-family: 'Lato', sans-serif;
+   font-family: 'Libre Baskerville', sans-serif;
    color: black;
    display: flex;
    flex-direction: column;
-   padding-top: 5rem;
-   font-size: 1.5rem;
+   padding-top: 3rem;
+   font-size: 1.2rem;
+}
+
+#p-info{
+   font-family: 'Lato', sans-serif;
 }
 
 #d-contact{
@@ -16,7 +20,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    text-align: center;
-   margin-left: 10vw;
+   margin-left: 5vw;
 }
 
 #linkedin-link {
