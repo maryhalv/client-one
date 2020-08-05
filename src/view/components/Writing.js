@@ -44,6 +44,13 @@ return(
 );
 }
 
+function DocumentLink(props){
+return(
+    <a href={props.data}>
+     {props.title}
+    </a>
+);
+}
 export function Writing(props) {
 
     const[pdf_view, setPdf] = useState("play_analysis");
@@ -79,16 +86,10 @@ export function Writing(props) {
         <Collapsible id="top-collapsible" trigger="Academic">
                 <div id="category-items">
                             <div id="writing">
-                             <Collapsible id="pdf-collapsible" trigger="Play Analysis">
-                             <div id="document-container">
-                               <object id="pdf-view" data={play_analysis} type="application/pdf">
-                                     <p> <a href={play_analysis}></a></p>
-                                   </object>
-                             </div>
-                             </Collapsible>
+                            <DocumentLink data={play_analysis} title="Play Analysis"/>
                             </div>
                            <div id="writing">
-                           <Document data={ex_girlfriend} title="My Crazy Ex-Girlfriend Analysis"/>
+                           <DocumentLink data={ex_girlfriend} title="My Crazy Ex-Girlfriend Analysis"/>
                            </div>
                         </div>
                 </Collapsible>
@@ -97,25 +98,13 @@ export function Writing(props) {
         <Collapsible trigger="Poetry">
         <div id="poem-items">
                             <div id="writing">
-                            <Collapsible id="pdf-collapsible" trigger="Kitchen Poem">
-                                                         <div id="document-container">
-                                                           <object id="pdf-view" data={kitchen_poem} type="application/pdf">
-                                                                 <p> <a href={kitchen_poem}></a></p>
-                                                               </object>
-                                                         </div>
-                                                         </Collapsible>
+                            <DocumentLink data={kitchen_poem} title="Kitchen Poem"/>
                             </div>
                            <div id="writing">
-                           <Collapsible id="pdf-collapsible" trigger="Shore Poem">
-                                                                                    <div id="document-container">
-                                                                                      <object id="pdf-view" data={shore_poem} type="application/pdf">
-                                                                                            <p> <a href={shore_poem}></a></p>
-                                                                                          </object>
-                                                                                    </div>
-                                                                                    </Collapsible>
+                           <DocumentLink data={shore_poem} title="Shore Poem"/>
                            </div>
                            <div id="writing">
-                           <Document data={nyc_poem} title="NYC Poem"/>
+                           <DocumentLink data={nyc_poem} title="NYC Poem"/>
                            </div>
                 </div>
         </Collapsible>
@@ -124,22 +113,22 @@ export function Writing(props) {
         <Collapsible trigger="Triad Stage Blogs">
             <div id="triad-items">
                             <div id="writing">
-                            <Document data={blog_1} title="Summer Camps Unmasked: A Behind-The-Scenes Look at our Physical Comedy..."/>
+                            <DocumentLink data={blog_1} title="Summer Camps Unmasked: A Behind-The-Scenes Look at our Physical Comedy..."/>
                             </div>
                             <div id="writing">
-                            <Document data={blog_2} title="Behind-the-Scenes at Our Monologue Intensive..."/>
+                            <DocumentLink data={blog_2} title="Behind-the-Scenes at Our Monologue Intensive..."/>
                              </div>
                              <div id="writing">
-                             <Document data={blog_3} title="I like to Move It, Move It: Understanding and Utilizing Movement"/>
+                             <DocumentLink data={blog_3} title="I like to Move It, Move It: Understanding and Utilizing Movement"/>
                             </div>
                             <div id="writing">
-                            <Document data={blog_4} title="Summer of Growth: Our Opportunity Greensboro Fellow"/>
+                            <DocumentLink data={blog_4} title="Summer of Growth: Our Opportunity Greensboro Fellow"/>
                             </div>
                             <div id="writing">
-                            <Document data={blog_5} title="Field Trip Fun at Triad Stage"/>
+                            <DocumentLink data={blog_5} title="Field Trip Fun at Triad Stage"/>
                             </div>
                             <div id="writing">
-                            <Document data={blog_6} title="Summer Camp Wrap Up"/>
+                            <DocumentLink data={blog_6} title="Summer Camp Wrap Up"/>
                             </div>
                 </div>
         </Collapsible>
@@ -148,13 +137,13 @@ export function Writing(props) {
         <Collapsible trigger="Entity Magazine">
           <div id="entity-items">
                             <div id="writing">
-                            <Document data={songs} title="100 Songs for Summer To Spice Up Your Playlist"/>
+                            <DocumentLink data={songs} title="100 Songs for Summer To Spice Up Your Playlist"/>
                             </div>
                            <div id="writing">
-                           <Document data={get_started} title="How to Get Started in Acting: 12 Tips for Aspiring Actors"/>
+                           <DocumentLink data={get_started} title="How to Get Started in Acting: 12 Tips for Aspiring Actors"/>
                            </div>
                            <div id="writing">
-                           <Document data={sierra_bogess} title="Broadway&apos;s Leading Lady Sierra Boggess Inspires On and Off Stage"/>
+                           <DocumentLink data={sierra_bogess} title="Broadway&apos;s Leading Lady Sierra Boggess Inspires On and Off Stage"/>
                            </div>
                 </div>
         </Collapsible>
@@ -163,28 +152,42 @@ export function Writing(props) {
         <Collapsible trigger="Odyssey">
                   <div id="odyssey-items">
                                     <div id="writing">
-                                    <Document data={monday_blues} title="The Monday Blues as Told By &apos;The Office&apos;"/>
+                                    <a href={monday_blues}>The Monday Blues</a>
                                     </div>
                                    <div id="writing">
-                                    <Document data={freshman_15} title="The Freshman 15: Disney Edition"/>
+                                    <a href={freshman_15}>
+                                    The Freshman 15: Disney Edition
+                                    </a>
                                    </div>
                                    <div id="writing">
-                                   <Document data={resolutions} title="8 New Years Resolutions Worth Keepimg"/>
+                                   <a href={resolutions}>
+                                   8 New Years Resolutions Worth Keeping
+                                   </a>
                                    </div>
                                    <div id="writing">
-                                   <Document data={kids_show} title="Honest Reviews of Popular Kid Show Characters"/>
+                                   <a href={kids_show}>
+                                   Honest Reviews of Popular Kid Show Characters
+                                   </a>
                                    </div>
                                    <div id="writing">
-                                   <Document data={winter_south} title="Honest Reviews of Popular Kid Show Characters"/>
+                                   <a href={winter_south}>
+                                   Hardships of Winter in the South
+                                   </a>
                                    </div>
                                    <div id="writing">
-                                   <Document data={chandler_bing} title="15 Times Chandler Bing Perfectly Described Us All"/>
+                                   <a href={chandler_bing}>
+                                   15 Times Chandler Bing Perfectly Described Us All
+                                   </a>
                                    </div>
                                    <div id="writing">
-                                   <Document data={singers} title="20 Things All Singers Know To Be True"/>
+                                   <a href={singers}>
+                                   20 Things All Singers Know To Be True
+                                   </a>
                                    </div>
                                    <div id="writing">
-                                   <Document data={holidays_mother} title="The Holidays as Told By &ldquo;How I Met Your Mother&rdquo;"/>
+                                   <a href={holidays_mother}>
+                                   The Holidays as Told By &ldquo;How I Met Your Mother&rdquo;
+                                   </a>
                                    </div>
 
                         </div>

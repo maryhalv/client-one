@@ -2,7 +2,7 @@ import React, {useState, useLayoutEffect} from 'react';
 import ReactDOM from 'react-dom';
 import './sidemenu.css';
 import menu from '../images/icons8-menu-100.png';
-
+import Collapsible from 'react-collapsible';
 
 //  <div id="d-media-menu">
 //      <div id="photo-menu-item" onClick={handlePhotosClick}>
@@ -60,8 +60,7 @@ export function SideMenu(props) {
     }
 
     const handleMediaClick = () => {
-         animateMenu();
-         animateMediaMenu();
+         /*animateMenu();*/
          props.handleViewChange('photos');
     }
 
@@ -83,10 +82,12 @@ export function SideMenu(props) {
     }
 
     const handlePhotosClick=() => {
+         animateMenu();
          props.handleViewChange('photos');
     }
 
     const handleVideosClick=() => {
+        animateMenu();
         props.handleViewChange('videos');
     }
 
@@ -140,8 +141,14 @@ export function SideMenu(props) {
                 <div id="smenu-item" onClick={handleResumeClick}>
                 Resume
                 </div>
-                <div id="smenu-item" onClick={handleMediaClick}>
-                Photos, Videos, and Sound
+                <div id="smenu-item" onClick={handlePhotosClick}>
+                Photos
+                </div>
+                <div id="smenu-item" onClick={handleVideosClick}>
+                Videos
+                </div>
+                <div id="smenu-item" onClick={handleSoundClick}>
+                Sound
                 </div>
                 <div id="smenu-item" onClick={handleWritingClick}>
                 Writing

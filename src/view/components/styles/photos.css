@@ -3,16 +3,16 @@
 #photos-div {
  display: flex;
  flex-direction: column;
- width: 50vw;
+ width: 80vw;
  /*margin-top: 4rem;*/
  text-align: center;
- margin-left: 25%;
- margin-right: 25%;
- padding-top: 9rem;
+ margin-left: 10%;
+ margin-right: 10%;
+ padding-top: 5rem;
 }
 
 .photo-div {
-width: 50vw;
+width: 80vw;
 margin-bottom: 1rem;
 display: flex;
 flex-direction: column;
@@ -75,7 +75,7 @@ flex-direction: column;
 
 #gallery-cap {
     margin-top: 0vw;
-    width: 48vw;
+    width: 80vw;
     text-align: center;
     color: black;
     padding: 1vw;
@@ -87,14 +87,14 @@ flex-direction: column;
 
 #main-pic {
    display: block;
-       width: 100%;
-       height: auto;
+   width: 100%;
+   height: auto;
     /*border: 0.2vw solid black; */
 }
 
 #main-pic-container {
-  width: 40vw;
-  margin: 0 2vw 0 2vw;
+  width: 100vw;
+  margin: 0 0vw 0 0vw;
 }
 
 #side-pic{

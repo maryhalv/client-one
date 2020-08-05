@@ -44,7 +44,7 @@
 
 #pdf-view{
   width: 89vw;
-  height: 100vw;
+  height: 100vh;
 }
 
 #writing {
@@ -59,7 +59,7 @@
 #category-items, #poem-items, #triad-items, #entity-items, #odyssey-items{
  margin-top: 1rem;
  padding: 0.5rem 0 1rem 1rem;
- background-color: #7B8CDE;
+ background-color: #9999C3;
 }
 
 #document-container {

@@ -9,18 +9,18 @@
 }
 
 #d-headshot-1 {
-  width: 40vw;
-  margin: 4.5rem 30vw 0vw 30vw;
+  width: 80vw;
+  margin: 4.5rem 10vw 0vw 10vw;
 }
 
 #d-headshot-2, #d-headshot-3 {
-  margin: 0vw 30vw 0vw 30vw;
-  width: 40vw;
+  margin: 0vw 10vw 0vw 10vw;
+  width: 80vw;
 }
 
 #d-headshot-4 {
-  margin: 0vw 30vw 3vw 30vw;
-  width: 40vw;
+  margin: 0vw 10vw 3vw 10vw;
+  width: 80vw;
 }
 
 #img-headshot {

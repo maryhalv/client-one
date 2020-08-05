@@ -32,7 +32,7 @@ function PhotoGrid(props) {
      return(<div data-src={photo.src} />);
      });
 
-    return(photo_sliders);
+    return(photo_divs);
 }
 
 export function Photos(props) {
@@ -122,17 +122,17 @@ const slider = (
 //    </div>
 //    <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
 
-//return(
-//    <React.Fragment>
-//    <div id="display-photo">
-//   <div id="photos-div">
-//   <PhotoGrid photos={photos}/>
-//   </div>
-//   </div>
-//   </React.Fragment>
-//   );
-
 return(
+  <React.Fragment>
+  <div id="display-photo">
+  <div id="photos-div">
+  <PhotoGrid photos={photos}/>
+ </div>
+  </div>
+ </React.Fragment>
+  );
+
+/*return(
 <div id="slider-container">
   <AwesomeSlider id="slider">
   <div data-src={clown_bar_1}/>
@@ -150,5 +150,5 @@ return(
   </AwesomeSlider>
 </div>
 
-);
+); */
 }
