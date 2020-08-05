@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&display=swap');
 
 #main-resume {
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
 #resume-view {
@@ -10,7 +10,9 @@
 }
 
 #resumes{
- width: 100vw;
+ width: 90vw;
+ margin-left: 5vw;
+ margin-right: 5vw;
  display: flex;
  flex-direction: column;
  padding-top: 5rem;
@@ -20,4 +22,6 @@
 
 #resume-option{
  padding-top: 1rem;
+ border-bottom: black solid 1px;
+ cursor: pointer;
 }

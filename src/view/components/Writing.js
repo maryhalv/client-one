@@ -25,12 +25,7 @@ import winter_south from './documents/winter_south.pdf';
 import chandler_bing from './documents/chandler_bing.pdf';
 import singers from './documents/singers.pdf';
 import holidays_mother from './documents/holidays_mother.pdf';
-
-//<Collapsible trigger="Play Analysis">
-//                             <object id="writing-pdf-view" data={play_analysis} type="application/pdf">
-//                                   <p> <a href={play_analysis}></a></p>
-//                                 </object>
-//                            </Collapsible>
+import hamilton from './documents/hamilton.pdf';
 
 function Document(props) {
 return(
@@ -192,6 +187,18 @@ export function Writing(props) {
 
                         </div>
                 </Collapsible>
+        </div>
+        <div id="writing-category">
+        <Collapsible trigger="Buzzfeed Community">
+        <div id="buzzfeed-items">
+        <div id="writing">
+        <DocumentLink data={hamilton} title="Ranking songs from &ldquo;Hamilton&rdquo;"/>
+        </div>
+        <div id="writing">
+        <DocumentLink data="https://www.buzzfeed.com/hannahdobrogosz/direct-a-rom-com-and-well-tell-you-what-city-you-5qosed1r7p" title="Rom-Com Quiz"/>
+        </div>
+        </div>
+        </Collapsible>
         </div>
         </div>
         </React.Fragment>
