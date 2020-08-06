@@ -46,12 +46,12 @@
 }
 
 #about-headshot {
-    width: 50vw;
+    height: 35vw;
     margin-left: 5%;
 }
 
 #img-headshot-about {
     display: block;
-   width: 100%;
-     height: auto;
+     width: auto;
+     height: 100%;
 }
