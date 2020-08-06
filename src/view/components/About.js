@@ -11,10 +11,6 @@ const[headView, setHead] = useState(headshot_1);
 const[nextView, setNext]= useState(1);
 
 useEffect(() => {
-    window.scrollTo(0,0);
-});
-
-useEffect(() => {
  setTimeout(() => {
     switch(nextView){
     case 1:
