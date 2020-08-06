@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/client-one/static/css/main.656402aa.chunk.css",
-    "main.js": "/client-one/static/js/main.0df2fccd.chunk.js",
-    "main.js.map": "/client-one/static/js/main.0df2fccd.chunk.js.map",
+    "main.css": "/client-one/static/css/main.468ea47e.chunk.css",
+    "main.js": "/client-one/static/js/main.1bdfa774.chunk.js",
+    "main.js.map": "/client-one/static/js/main.1bdfa774.chunk.js.map",
     "runtime-main.js": "/client-one/static/js/runtime-main.4f73fa4e.js",
     "runtime-main.js.map": "/client-one/static/js/runtime-main.4f73fa4e.js.map",
     "static/css/2.8f118048.chunk.css": "/client-one/static/css/2.8f118048.chunk.css",
-    "static/js/2.17353bd8.chunk.js": "/client-one/static/js/2.17353bd8.chunk.js",
-    "static/js/2.17353bd8.chunk.js.map": "/client-one/static/js/2.17353bd8.chunk.js.map",
+    "static/js/2.f3e53745.chunk.js": "/client-one/static/js/2.f3e53745.chunk.js",
+    "static/js/2.f3e53745.chunk.js.map": "/client-one/static/js/2.f3e53745.chunk.js.map",
     "index.html": "/client-one/index.html",
-    "precache-manifest.6662977f3feb9a215eef31d0de60d8fd.js": "/client-one/precache-manifest.6662977f3feb9a215eef31d0de60d8fd.js",
+    "precache-manifest.9dcc0b0f9ca1351fb3d612d1ff4fa849.js": "/client-one/precache-manifest.9dcc0b0f9ca1351fb3d612d1ff4fa849.js",
     "service-worker.js": "/client-one/service-worker.js",
     "static/css/2.8f118048.chunk.css.map": "/client-one/static/css/2.8f118048.chunk.css.map",
-    "static/css/main.656402aa.chunk.css.map": "/client-one/static/css/main.656402aa.chunk.css.map",
-    "static/js/2.17353bd8.chunk.js.LICENSE.txt": "/client-one/static/js/2.17353bd8.chunk.js.LICENSE.txt",
+    "static/css/main.468ea47e.chunk.css.map": "/client-one/static/css/main.468ea47e.chunk.css.map",
+    "static/js/2.f3e53745.chunk.js.LICENSE.txt": "/client-one/static/js/2.f3e53745.chunk.js.LICENSE.txt",
     "static/media/alessandra.jpg": "/client-one/static/media/alessandra.46e3ea59.jpg",
     "static/media/blog_1.pdf": "/client-one/static/media/blog_1.f828d828.pdf",
     "static/media/blog_2.pdf": "/client-one/static/media/blog_2.71bdb6d8.pdf",
@@ -61,8 +61,8 @@
   "entrypoints": [
     "static/js/runtime-main.4f73fa4e.js",
     "static/css/2.8f118048.chunk.css",
-    "static/js/2.17353bd8.chunk.js",
-    "static/css/main.656402aa.chunk.css",
-    "static/js/main.0df2fccd.chunk.js"
+    "static/js/2.f3e53745.chunk.js",
+    "static/css/main.468ea47e.chunk.css",
+    "static/js/main.1bdfa774.chunk.js"
   ]
 }
