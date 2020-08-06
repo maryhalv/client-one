@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Permanent+Marker&family=Rajdhani:wght@500&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&display=swap');
 
-
 #main-about {
  display: flex;
  flex-direction: column;
@@ -47,7 +46,8 @@
 
 #about-headshot {
     height: 35vw;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #img-headshot-about {
