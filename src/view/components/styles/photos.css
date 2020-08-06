@@ -3,16 +3,16 @@
 #photos-div {
  display: flex;
  flex-direction: column;
- width: 80vw;
+ width: 70vw;
  /*margin-top: 4rem;*/
  text-align: center;
- margin-left: 10%;
- margin-right: 10%;
+ margin-left: 15%;
+ margin-right: 15%;
  padding-top: 4rem;
 }
 
 .photo-div {
-width: 80vw;
+width: 70vw;
 margin-bottom: 1rem;
 display: flex;
 flex-direction: column;
@@ -20,7 +20,7 @@ flex-direction: column;
 
 .img-photo {
     display: block;
-   width: 100%;
+     width: 100%;
      height: auto;
 }
 
@@ -72,12 +72,10 @@ flex-direction: column;
 }
 
 #gallery-cap {
-    margin-top: 0vw;
-    width: 52vw;
+    width: 67vw;
     text-align: center;
     color: black;
     padding: 1vw;
-    margin-top: 1rem;
     font-size: 1rem;
     border-radius: 2vw;
     font-family: 'Lato', sans-serif;
@@ -101,6 +99,8 @@ flex-direction: column;
   width: 60vw;
   margin: 0 20vw 0 20vw;
   padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
 }
 
 #side-pic{
@@ -116,4 +116,13 @@ flex-direction: column;
 
 #slider-container{
   padding-top: 4rem;
+}
+
+#photo-div{
+  height: 50vw;
+}
+
+#carousel-container{
+  width: 60vw;
+  margin: 0 20vw 0 20vw;
 }

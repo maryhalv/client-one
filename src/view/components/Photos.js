@@ -16,6 +16,8 @@ import left_arrow from '../images/icons8-double-left-50.png';
 import right_arrow from '../images/icons8-double-right-50.png';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function PhotoGrid(props) {
 
@@ -126,32 +128,36 @@ useEffect(() => {
 //    </div>
 //    <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
 
-return(
-  <React.Fragment>
-  <div id="main-pic-container">
-  <img id="main-pic" src={photos[index].src}/>
-  </div>
-  <div id="caption-container">
-    <button id="b-previous" onClick={handlePreviousClick}>
-  <img id="left-arrow" src={left_arrow}/>
-  </button>
-    <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
-    <button id="b-next" onClick={handleNextClick}>
-      <img id="right-arrow" src={right_arrow}/>
-    </button>
-  </div>
-  </React.Fragment>
-);
-
 //return(
 //  <React.Fragment>
-//  <div id="display-photo">
-//  <div id="photos-div">
-//  <PhotoGrid photos={photos}/>
-// </div>
+//  <div id="main-pic-container">
+//  <img id="main-pic" src={photos[index].src}/>
+//  <div id="caption-container">
+//      <button id="b-previous" onClick={handlePreviousClick}>
+//    <img id="left-arrow" src={left_arrow}/>
+//    </button>
+//      <figcaption id="gallery-cap">{photos[index].cap}</figcaption>
+//      <button id="b-next" onClick={handleNextClick}>
+//        <img id="right-arrow" src={right_arrow}/>
+//      </button>
+//    </div>
+//    <div id="carousel-container">
+//        <PhotoGrid photos={photos}/>
+//    </div>
 //  </div>
-// </React.Fragment>
-//  );
+//
+//  </React.Fragment>
+//);
+
+return(
+  <React.Fragment>
+  <div id="display-photo">
+  <div id="photos-div">
+  <PhotoGrid photos={photos}/>
+ </div>
+  </div>
+ </React.Fragment>
+  );
 
 /*return(
 <div id="slider-container">
