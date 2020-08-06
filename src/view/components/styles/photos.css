@@ -12,10 +12,10 @@
 }
 
 .photo-div {
-width: 70vw;
-margin-bottom: 1rem;
-display: flex;
-flex-direction: column;
+ width: 70vw;
+ margin-bottom: 1rem;
+ display: flex;
+ flex-direction: column;
 }
 
 .img-photo {
@@ -90,13 +90,12 @@ flex-direction: column;
 
 #main-pic {
    display: block;
-   width: 100%;
-   height: auto;
+   width: auto;
     /*border: 0.2vw solid black; */
 }
 
 #main-pic-container {
-  width: 60vw;
+  height: 30vw;
   margin: 0 20vw 0 20vw;
   padding-top: 4rem;
   display: flex;
