@@ -192,10 +192,13 @@ export function Writing(props) {
         <Collapsible trigger="Buzzfeed Community">
         <div id="buzzfeed-items">
         <div id="writing">
-        <DocumentLink data={hamilton} title="Ranking songs from &ldquo;Hamilton&rdquo;"/>
+        <DocumentLink data="https://www.buzzfeed.com/hannahdobrogosz/i-ranked-all-46-songs-from-hamilton-and-it-might-dcwfdalhrm" title="Ranking songs from &ldquo;Hamilton&rdquo;"/>
         </div>
         <div id="writing">
         <DocumentLink data="https://www.buzzfeed.com/hannahdobrogosz/direct-a-rom-com-and-well-tell-you-what-city-you-5qosed1r7p" title="Rom-Com Quiz"/>
+        </div>
+        <div id="writing">
+        <DocumentLink data="https://www.buzzfeed.com/hannahdobrogosz/12-tv-crossover-friendships-we-need-in-our-lives-e0s1lt74ys" title="Crossover TV Friendships"/>
         </div>
         </div>
         </Collapsible>
