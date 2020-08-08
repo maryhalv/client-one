@@ -10,22 +10,10 @@ export function Resume() {
      <React.Fragment>
      <div id="resumes">
      <div id="resume-option">
-     <Collapsible trigger="Professional Resume">
-      <div id="main-resume">
-          <object id="resume-view" data={resume} type="application/pdf">
-            <p> <a href={resume}></a></p>
-          </object>
-          </div>
-     </Collapsible>
+     <a href={resume} id="resume-link">Professional Resume</a>
      </div>
      <div id="resume-option">
-     <Collapsible trigger="Acting Resume">
-     <div id="main-resume">
-               <object id="resume-view" data={performance_resume} type="application/pdf">
-                 <p> <a href={performance_resume}></a></p>
-               </object>
-               </div>
-     </Collapsible>
+     <a href={performance_resume} id="resume-link">Acting Resume</a>
      </div>
      </div>
 
