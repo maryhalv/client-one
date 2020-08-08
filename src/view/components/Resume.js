@@ -16,7 +16,6 @@ export function Resume() {
      <a href={performance_resume} id="resume-link">Acting Resume</a>
      </div>
      </div>
-
      </React.Fragment>
    );
 }
